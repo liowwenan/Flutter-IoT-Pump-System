@@ -69,8 +69,8 @@ void setup() {
   config.api_key = API_KEY;
 
   // Assign the user sign in credentials
-  auth.user.email = USER_EMAIL;
-  auth.user.password = USER_PASSWORD;
+  //auth.user.email = USER_EMAIL;
+  //auth.user.password = USER_PASSWORD; //Removed user email & password
 
   // Assign the RTDB URL (required)
   config.database_url = DATABASE_URL;
@@ -143,7 +143,7 @@ void loop() {
   }
 }
 
-void sendData_Firebase();
+void sendData_Firebase(){
   // Send new readings to database
   if (Firebase.ready() && (millis() - sendDataPrevMillis > timerDelay || sendDataPrevMillis == 0)){
     sendDataPrevMillis = millis();
@@ -155,3 +155,4 @@ void sendData_Firebase();
     json.set(flowPath.c_str(), String(flow));
     Serial.printf("Set json... %s\n", Firebase.RTDB.setJSON(&fbdo, parentPath.c_str(), &json) ? "ok" : fbdo.errorReason().c_str());
   }
+}
