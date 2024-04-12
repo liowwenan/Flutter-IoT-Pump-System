@@ -16,8 +16,8 @@
 #define API_KEY "AIzaSyBedM-GzU82_7fV8gEMww3iMC0FLe1oAaY"
 
 // Insert Authorized Email and Corresponding Password
-#define USER_EMAIL "REPLACE_WITH_THE_USER_EMAIL"
-#define USER_PASSWORD "REPLACE_WITH_THE_USER_PASSWORD"
+//#define USER_EMAIL "REPLACE_WITH_THE_USER_EMAIL"
+//#define USER_PASSWORD "REPLACE_WITH_THE_USER_PASSWORD" //Removed user email & password because Firebase we set the user authorisation as anynomous
 
 // Insert RTDB URLefine the RTDB URL
 #define DATABASE_URL "https://iot-pump-system-default-rtdb.asia-southeast1.firebasedatabase.app/"
