@@ -37,6 +37,9 @@ String presPath = "/pressure";
 String tempPath = "/temperature";
 String flowPath = "/flowrate";
 
+// Parent Node (to be updated in every loop)
+String parentPath;
+
 FirebaseJson json;
 
 //declare variables
