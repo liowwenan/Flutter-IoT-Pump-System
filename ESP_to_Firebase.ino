@@ -1,3 +1,6 @@
+//Source: https://randomnerdtutorials.com/esp32-data-logging-firebase-realtime-database/
+//https://www.youtube.com/watch?v=aO92B-K4TnQ https://www.youtube.com/watch?v=4vbXwtqCPOc&list=PLEDaotIsUUtiPeA21hq7B9FgO_MV-5a4H&index=2
+
 #include <Firebase_ESP_Client.h>
 #include <WiFi.h>
 
@@ -6,8 +9,8 @@
 // Provide the RTDB payload printing info and other helper functions.
 #include "addons/RTDBHelper.h"
 
-#define WIFI_SSID "Boss_Digi";  // type your wifi name
-#define WIFI_PASSWORD "1011372888";  // type your wifi password
+#define WIFI_SSID "Boss_Digi"  // type your wifi name
+#define WIFI_PASSWORD "1011372888"  // type your wifi password
 
 // Insert Firebase project API Key
 #define API_KEY "AIzaSyBedM-GzU82_7fV8gEMww3iMC0FLe1oAaY"
