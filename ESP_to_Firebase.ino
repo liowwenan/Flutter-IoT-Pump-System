@@ -6,8 +6,8 @@
 // Provide the RTDB payload printing info and other helper functions.
 #include "addons/RTDBHelper.h"
 
-#define char WIFI_SSID[] = "Boss_Digi";  // type your wifi name
-#define char WIFI_PASSWORD[] = "1011372888";  // type your wifi password
+#define WIFI_SSID "Boss_Digi";  // type your wifi name
+#define WIFI_PASSWORD "1011372888";  // type your wifi password
 
 // Insert Firebase project API Key
 #define API_KEY "AIzaSyBedM-GzU82_7fV8gEMww3iMC0FLe1oAaY"
